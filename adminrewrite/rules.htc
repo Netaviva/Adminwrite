@@ -1,0 +1,6 @@
+BasePath /techprojects/lrewritev2/
+Rewrite cash money.php L
+Rewrite money.php cool.php R
+Rewrite u/:alphanum:/ profile.php?user=$1 L,NC
+Rewrite go/:regex:([a-zA-Z0-9.-_])/ redirect.php L,NC
+Rewrite blog/:int:/ blog.php?page=$1 L

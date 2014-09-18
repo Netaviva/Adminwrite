@@ -1,0 +1,5 @@
+BasePath /mini/
+Rewrite cash money.php R=301,L
+Rewrite money.php cool.php R
+Rewrite u/:alphanum:/ profile.php?user=$1 L,NC
+Rewrite go/:regex:([a-zA-Z0-9.-_])/ redirect.php L,NC

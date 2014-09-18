@@ -1,0 +1,222 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+a{
+	text-decoration: none;	
+}
+
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; }
+*:first-child+html .clearfix { zoom: 1; }
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background: #9CA3A2;
+}
+
+a{ text-decoration: none; color: #666;}
+#header
+{
+	padding: 20px 10px;
+	background: #343442;
+	border-bottom: 1px solid #ccc;
+}
+
+#header h1
+{
+	color: #fff;
+	text-shadow: 1px 2px 3px #000;	
+}
+
+#content
+{
+	margin-bottom: 100px;
+}
+
+#content h2
+{
+	padding: 10px;
+}
+
+/* Login */
+#loginform
+{
+    margin: 0 auto;
+    width: 290px;
+}
+
+.loginuser, .loginpass
+{
+	background: #fff;
+    border: 1px solid #6c6c6c;
+    color: #6c6c6c;
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+    padding: 10px 15px;
+    width: 290px;
+}
+
+.loginbutton
+{    
+	background: #343442;
+    color: #fff;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    margin: 5px auto 0;
+    padding: 8px 40px;
+	border: 0;
+}
+/* Table */
+.table .thead
+{
+	
+}
+
+.table .thead .th
+{
+	float: left;
+	text-align: center;
+	margin-left: 2%;
+	width: 25%;
+	background: #343442;
+	padding: 10px 5px;
+	border: 1px solid #bbb;
+	color: #fff;
+	font-weight: bold;
+}
+
+.table .tbody .tr
+{
+	margin-bottom: 10px;
+}
+
+.table .tbody .tr .td
+{
+	float: left;
+	text-align: center;
+	margin-left: 2%;
+	width: 25%;
+	background: #ccc;
+	border: 1px solid #bbb;
+	padding: 10px 5px;
+	min-height: 20px;
+}
+
+.table .thead .th.delete,
+.table .tbody .td.delete
+{
+	width: 10%;
+}
+
+#add-rule
+{
+	background: #f1f1f1;
+	position: fixed;
+	bottom:0;
+	left: 0;
+	height: 90px;
+	width: 100%;
+	border-top: 1px solid #999;
+}
+
+#add-rule div.form
+{
+	padding: 10px;	
+}
+
+#add-rule input[type=text], #add-rule select{width: 80%; border:1px solid #ccc; padding: 5px}
+#add-rule .form-submit{padding: 25px 10px; float: left}
+.button
+{    
+	-moz-border-radius: 2px 2px 2px 2px;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    background: -moz-linear-gradient(center top , #DEDEDE, #C7C7C7);
+    border-color: #C4C4C4 #B8B8B8 #ADADAD;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    vertical-align: baseline;
+}
+.form-expression, .form-redirect, .form-flag{ float: left; width: 25%;}
+.form-expression label, .form-redirect label, .form-flag label{font-weight: bold; margin-bottom: 5px; display: block;}
+
+.base
+{
+	padding: 20px 5px;	
+}
+
+.base h4
+{
+	float: left;
+	width: 180px;
+	text-align: right;
+	margin-right: 20px;	
+}
+
+.editform .button
+{
+	padding: 1px 15px;	
+}
